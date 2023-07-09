@@ -66,3 +66,80 @@ nav > ul > li {
     background: red;
     color: white;
 }
+
+/* Services Section Start */
+#serviceSection{
+    background-image: url('./asset/image/footer-bg.png'), linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9)) ;
+    height: 100vh;
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 100px;
+}
+.service-column1{
+    width: 50%;
+}
+.box-list{
+    display: flex;
+    gap: 10px;
+
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 8px;
+    text-align: center;
+    color: black;
+    padding: 30px 35px;
+    border-radius: 5px;
+}
+.box > img{
+    width: 100px ;
+    padding:20px ;
+}
+.box > h5{
+    font-size: 17px;
+}
+.service-btn{
+    border-radius: 30px;
+    color: gray;
+}
+.services-txt{
+    color: red;
+}
+.service-column1 > ol{
+    font-size: 15px;
+    line-height: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+}
+.author-container{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    margin-top: 20px;
+    padding-right: 50px;
+    border-right: 2px solid red;
+
+}
+.author-container > img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.btn-container > button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 15px 30px;
+    border-radius: 25px;
+    color: red;
+    border: none;
+}
